@@ -13,10 +13,10 @@ var gameState = "play"
 
 function preload(){
 
-  snakeUp = loadImage("/Assets/snakeUp.png")
-  snakeLeft = loadImage("/Assets/snakeLeft.png")
-  snakeRight = loadImage("/Assets/snakeRight.png")
-  snakeDown = loadImage("/Assets/snakeDown.png")
+  snakeUp = loadImage("Assets/snakeUp.png")
+  snakeLeft = loadImage("Assets/snakeLeft.png")
+  snakeRight = loadImage("Assets/snakeRight.png")
+  snakeDown = loadImage("Assets/snakeDown.png")
 
   fruitImg = loadImage("Assets/fruit.png")
   poisonImg = loadImage("Assets/poison.png")
